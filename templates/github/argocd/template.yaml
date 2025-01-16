@@ -143,6 +143,7 @@ spec:
         description: Contains the ArgoCD manifests for ${{ parameters.repoName }}
         repoUrl: github.com?owner=${{ parameters.orgName }}&repo=${{ parameters.repoName }}-gitops
         defaultBranch: main
+        repoVisibility: public
 
     - id: register
       name: Registering the Catalog Info Component
